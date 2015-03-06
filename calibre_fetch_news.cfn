@@ -1,0 +1,30 @@
+[ilfatto]
+# Name of the recipe to fetch. You can run:
+#     ebook-convert --list-recipes
+# to look for the correct name. Do not forget the .recipe suffix
+
+# I make custom recipe
+recipe = e:\calibre_fetch_news\Il Fatto Quotidiano_custom.recipe
+
+# Select your output profile. See http://manual.calibre-ebook.com/cli/ebook-convert-14.html
+# for a list. Common choices: kindle, kindle_dx, kindle_fire, kobo, ipad, sony
+outprofile = kindle_pw
+
+outdir = e:\calibre_fetch_news
+toemails = XXXXXXXXXX@kindle.com, OTHER@kindle.com
+
+# A prefix for generate file. The date will be appended to it.
+outprefix = il_fatto_quotidiano_
+
+# A prefix for the emails' subject. The date will be appended to it.
+subjectprefix = News: Il Fatto Quotidiano
+
+contentprefix = Attached is the your periodical downloaded by calibre
+tempdir = e:\calibre_fetch_news\temp
+
+# Your SMTP credentials
+smtp = smtp.live.com
+port = 587
+user = XXXXXXX@XXXXX
+passwd = XXXXXXXXX
+from = XXXXXXX@XXXXXXX
